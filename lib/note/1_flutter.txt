@@ -1,1 +1,52 @@
-블라블라
+[네이티브 플랫폼]
+	- Kotlin, java언어 : 안드로이드 프로그래밍 언어
+	- swift 언어 : Apple 프로그래밍 언어
+
+[ 크로스 플랫폼 ]
+	- 정의: 하나의 프로그램으로 다양한 운영체제나 디바이스에서 공통으로 실행 개발
+	- 종류: Flutter, reactNative, Unity 등등
+
+[ Flutter ]
+	1. 정의 : google 에서 개발한 UI 프레임워크, ios, android, web, windows
+	2. 구글 2017년 출시 , Dart언어(자바 비슷) 사용
+
+
+플러터( 프론트엔드 앱 화면구현 )
+	1. 설치
+		1) https://flutter.dev/
+		2) [Get started]
+		3) [Install Flutter manually.] * https://docs.flutter.dev/install/manual
+		4) [flutter_windows_3.35.7-stable.zip] 클릭하여 다운로드
+		5) 다운로드 .zip 파일풀고 [flutter] 폴더를 C:\src\flutter 폴더로 이동 [*권장*]
+
+	2. 환경변수 ( 개발환경 없이도 윈도우에서 플러터 실행 )
+		1) 윈도우 검색창에서 '시스템 환경 변수 편집' 검색
+		2) [고급] --> [ 환경변수] --> [사용자 변수] 목록에서 'path'변수를 더블클릭
+		3) [새로 만들기] 클릭후 플러터를 설치한 폴더내 bin 폴더의 경로 작성
+			예] C:\src\flutter\bin
+			예] C:\Users\tj-bu-702-teacher\Downloads\flutter_windows_3.35.7-stable\flutter\bin
+		[확인] 윈도우 검색창에서 'cmd' --> 'flutter doctor'입력후 엔터
+			[√] Flutter 출력되면 성공
+
+플러터 개발환경, 안드로이드 스튜디오
+	1. 설치
+		1) https://developer.android.com/studio?hl=ko
+		2) [Android 스튜디오 Otter 다운로드] 클릭하여 다운로드
+		3) [동의 여부] 체크 후 설치 진행
+		4) "android-studio-2025.2.1.7-windows.exe" 파일 실행 설치 진행
+		* [next]->[next]->[next]->[대기]->[finish]
+	2. 안드로이드 스튜디오 초기 설정
+		1) [next]
+		2) [standard] 체크후 [next] -> [next] -> accept [next] -> [대기] -> 완료
+	3. 안드로이드 스튜디오 초기 화면
+		1) 왼쪽 메뉴 -> [plugins] -> 'flutter' 와 'dart' 검색후 install 후 [restart]
+		-------------------
+		2) [new flutter project]
+			1) 왼쪽 메뉴 [flutter] 클릭
+			2) flutter SDK PATH : "C:\src\flutter"	* 플러터 설치 경로*
+			3) [NEXT]
+				project name : tj2025app (아무거나)
+				project type : application (기본값)
+				android language : *java*
+				platforms : 모두 체크
+				[create]
