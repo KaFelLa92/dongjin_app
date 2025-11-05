@@ -1,7 +1,10 @@
 // lib/example/day02/example4.dart
 
 
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+
+final dio = Dio();
 
 void main() { runApp( MyApp());}
 
