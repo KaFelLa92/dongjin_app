@@ -25,26 +25,31 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // 앱 시작 시 바로 MainScreen 보여주기
-      home: MainScreen(),
+      // home: MainScreen(),
     );
   }
 }
 
 // 메인 화면 (바텀 내비게이션을 포함한 화면)
-class MainScreen extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => _MainScreenState();
-}
+// class MainScreen extends StatefulWidget {
+  // @override
+  // State<StatefulWidget> createState() => _MainScreenState();
+// }
 
-class _MainScreenState extends State<MainScreen> {
-  // 현재 선택된 탭의 인덱스를 지정 (0 : 홈 , 1 : 등록 , 2 : 목록)
-   int _selectedIndex = 0;
-
-   final
-
-}
-
-// 홈페이지 화면
-class Homepage extends StatelessWidget {
-  
-}
+// class _MainScreenState extends State<MainScreen> {
+//   // 현재 선택된 탭의 인덱스를 지정 (0 : 홈 , 1 : 등록 , 2 : 목록)
+//    int _selectedIndex = 0;
+//
+//    // 각 탭에 표시될 화면을 리스트로 관리 (다이나믹 처리)
+//    final dynamic _pages = [
+//      HomePage(),
+//      CreatePage(),
+//      ListPage(),
+//    ];
+//
+// }
+//
+// // 홈페이지 화면
+// class HomePage extends StatelessWidget {
+//
+// }
